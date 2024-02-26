@@ -455,14 +455,12 @@ footer {
         height: 700px;
     }
     .footersection{
-        height: 700px;
+        height: 500px;
         width: 100%;
         display: flex;
     }
     .page-wrapper {
         overflow: visible;
     }
-    
-    
 
 }
