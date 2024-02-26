@@ -450,6 +450,7 @@ footer {
 
     section {
         width: 100%;
+        height: auto;
     }
     .feedback{
         height: 700px;
