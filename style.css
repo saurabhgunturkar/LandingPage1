@@ -429,7 +429,7 @@ footer {
         text-align: center;
         display: flex;
         overflow: hidden;
-        height: 50vh;
+        height: 38vh;
         flex-direction: column;
     }
 
@@ -455,7 +455,7 @@ footer {
         height: 700px;
     }
     .footersection{
-        height: 1000px;
+        height: 700px;
         display: flex;
         width: 100%;
     }
