@@ -458,6 +458,7 @@ footer {
         height: 800px; 
         width: 100%;
         display: flex;
+        margin-bottom: 50px;
     }
     .page-wrapper {
         overflow: visible;
