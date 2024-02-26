@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -9,235 +9,194 @@ body {
     height: 100vh;
 }
 
-
 header {
-    background:linear-gradient(to bottom, rgb(28, 12, 12), rgb(105, 2, 2) );
+    background: linear-gradient(to bottom, rgb(28, 12, 12), rgb(105, 2, 2));
 
     font-weight: 600;
     font-size: 22px;
     justify-content: flex-start;
-    /* padding: 1rem; */
-    /* margin-top: px; */
     text-align: center;
     height: 80px;
     overflow: hidden;
-    
+
 }
-
-
 
 .form-control {
     margin-left: 500px;
 }
 
-
-
-
-
-
-
-
 main {
-    display:flex;
+    display: flex;
     flex-direction: row;
- 
 }
 
 aside {
     float: left;
     width: 20%;
-    height: auto; /* Set max height for aside */
-    overflow-y: auto; /* Enable vertical scrolling */
-    background:linear-gradient(to top, #000000, rgb(105, 2, 2) );
+    height: auto;
+    overflow-y: auto;
+    background: linear-gradient(to top, #000000, rgb(105, 2, 2));
     padding: 20px;
     box-sizing: border-box;
-    position: sticky; /* Sticky position for aside */
-    /* border: 2px solid black; */
-    
+    position: sticky;
 }
 
-.user{
-   display: flex;
-   flex-direction: row;
-   gap: 10px;
-   
+.user {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .custom-horizontal-line {
-    border-top: 2px solid #333; /* You can change the color, width, and style */
-    margin-left: -10px; /* Adjust the margin as needed */
-    /* width: 100%; */
-    
+    border-top: 2px solid #333;
+    margin-left: -10px;
 }
 
-
-.options a{
+.options a {
     color: white;
     background-color: rgb(9, 68, 97);
-    margin:1px;
-    font-style:italic;
+    margin: 1px;
+    font-style: italic;
 }
 
-.options a:hover{
+.options a:hover {
     color: yellow;
 }
 
-.options a h4{
+.options a h4 {
     font-size: 18px;
 }
-
-
-
-
 
 section {
     float: right;
     width: 80%;
-    height:100vh;
-    /* margin: 0px; */
-    overflow-y:auto; /* Enable vertical scrolling */
-    overflow-x:hidden ;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
     box-sizing: border-box;
-    background: linear-gradient(to bottom, rgb(0, 0, 0, 1),rgb(0, 0, 0, 0.4)),url('./assests/6j3B.gif');;
-    /* background-image:  */
+    background: linear-gradient(to bottom, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.4)), url('./assests/6j3B.gif');
+    ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-
-    /* margin-bottom: 20px; */
-    
-    /* bottom: 0;  */
-    /* background:  linear-gradient(180.05deg, rgba(0, 0, 0, 0.6) 0.05%, rgba(0, 0, 0, 0.558027) 17.53%, rgba(0, 0, 0, 0.42) 37.68%, rgba(0, 0, 0, 0) 49.59%, rgba(0, 0, 0, 0) 99.95%), url(./assests/delish-caramel-apple-pizza-still003-1536959032.jpg); */
-    
 }
 
-
-
-.containers{
+.containers {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: start; */
-    /* margin-left: -10px; */
     width: 100%;
-
-
-    
 }
 
-.home, .about,.offers, .pizzlist, .desertlist,.feedback, .shops, .home3, .footersection{
+.home,
+.about,
+.offers,
+.pizzlist,
+.desertlist,
+.feedback,
+.shops,
+.home3,
+.footersection {
     border-bottom: 5px solid white;
-    /* padding-bottom: -20px; */
-    /* margin-top: 20px; */
-   
-    
 }
 
-.home{
+.home {
     width: 100%;
     text-align: center;
     color: Black;
     display: flex;
     flex-direction: row;
-    /* background:linear-gradient(to left, rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.5), rgb(255, 255, 255, 0.5)); */
-    /* background:linear-gradient(to bottom, rgb(6, 6, 6, 1), rgba(255, 242, 239, 0),rgb(240, 236, 236),rgba(195, 145, 145, 0),rgba(255, 255, 255, 0.6), rgba(250, 250, 250, 0.5)); */
     overflow: hidden;
-    /* background-color: #fff; */
-    /* mix-blend-mode: overlay; */
-    height:58vh;
+    height: 58vh;
 }
 
-.home::after{
+.home::after {
     content: "";
     backdrop-filter: blur(10px);
 }
 
-.home img{
+.home img {
     margin-top: 60px;
     border-radius: 50%;
     border: 10px solid white;
     margin-left: 100px;
 }
 
-.home .home-text{
+.home .home-text {
     margin-left: 80px;
     padding-top: 20px;
     margin-right: 60px;
 }
 
 @keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 0;  }
-    100% { opacity: 1; color: rgb(211, 194, 12); }
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        color: rgb(211, 194, 12);
+    }
 }
 
 .blinking-text {
     animation: blink 4s infinite;
-    
+
 }
 
-.about{
+.about {
     text-align: center;
     color: #fff;
-    padding:0px 60px;
+    padding: 0px 60px;
     overflow: hidden;
-    /* margin-top: 30px; */
-    /* margin-bottom: 30px; */
-    background: rgba(167, 165, 165, 0.2);
+    background: rgba(0, 0, 0, 0.8);
     fill: 100%;
 
 }
 
-
-
-.offer{
+.offer {
     padding: 50px;
-    /* margin-top: 50px; */
-    /* margin-left:500px; */
-    display:flex;
+    display: flex;
     text-align: center;
-    animation: moveImages 30s linear 1s infinite running; /* Adjust the duration as needed */
-    white-space:wrap;
-
-    /* animation-delay: 5s; */
-    /* animation-direction:alternate-reverse;  */
+    animation: moveImages 30s linear 1s infinite running;
+    white-space: wrap;
 }
 
-.offer img{
+.offer img {
     margin: 10px;
     border-radius: 30px;
-    /* box-shadow: 10px 5px white; */
     border: 5px solid rgb(219, 190, 176);
-    width: 100vw; /* Adjust the width as needed */
-    /* height: auto; */
+    width: 100vw;
     object-fit: cover;
 }
 
-  @keyframes moveImages {
+@keyframes moveImages {
     0% {
-      transform: translateX(0);
-      margin-left: 1000px;
+        transform: translateX(0);
+        margin-left: 1000px;
     }
+
     100% {
-      transform: translateX(-200%); /* Adjust the distance images move (here, from left to right) */
-      margin-left: 0px;
+        transform: translateX(-200%);
+        margin-left: 0px;
     }
-  }
+}
 
 
 
-.shops{
-    /* background-color: rgb(0, 0, 0, 0.5); */
+.shops {
     color: #fff;
     text-align: center;
     overflow: hidden;
-    /* height: auto; */
-    /* margin: 60px; */
     width: 100%;
-    
+
 }
 
-.shopslist{
+.shopslist {
     margin-bottom: 80px;
     display: flex;
     flex-wrap: wrap;
@@ -249,20 +208,17 @@ section {
     margin: 20px;
     position: relative;
     overflow: hidden;
-    width: 300px; /* Adjust the width as needed */
-  }
-
- .image img{
     width: 300px;
-    height: 200px;
-    /* display: block; */
-    border-radius: 5px;
-    border: 5px solid white;
-    /* overflow: hidden; */
-    
 }
 
-.overlay{
+.image img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    border: 5px solid white;
+}
+
+.overlay {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -275,207 +231,177 @@ section {
 
 .image:hover .overlay {
     transform: translateY(0);
-    /* overflow: visible; */
-  }
+}
 
-  .info {
+.info {
     padding: 20px;
     text-align: center;
-  }
+}
 
-
-
-.pizzlist{
+.pizzlist {
     color: #fff;
     text-align: center;
     margin-bottom: 0%;
-    
 }
 
-.desertlist{
+.desertlist {
     color: #fff;
     text-align: center;
 }
 
-.card-container{
+.card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: auto 60px;
-    
 }
 
-.card{
-    /* height:; */
-    width: calc(33.33% - 10px); /* Adjust the width and margin as needed */
-    margin-bottom: 80px; /* Adjust the margin as needed */
+.card {
+    width: calc(33.33% - 10px);
+    margin-bottom: 80px;
     box-sizing: border-box;
-    /* border-radius: 50px 0px; */
-   
 }
 
-.imgcard{
+.imgcard {
     width: 100%;
     height: 200px;
     border-radius: 50px 0px;
     background-size: cover;
 }
 
-.card-title{
+.card-title {
     color: yellow;
 }
 
-.card-body{
+.card-body {
     background-color: black;
     color: floralwhite;
-    /* padding: 5px; */
-    
+}
+
+/* Feedback rating */
+.home3 {
+    text-align: center;
+    margin: auto;
+    padding: 30px 0px;
+    width: 100%;
+}
+
+.feedbackcard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-evenly;
+}
+
+.bi-star-fill {
+    color: #edc967;
 }
 
 
 /* Feedback form  */
 
-.feedback{
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    /* background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fad0c4); */
-    height: 80vh;
+.feedback {
+    width: 100%;
+    background: rgb(0, 0, 0, 0.5);
+    padding: 60px;
+    color: white;
+}
+
+.feedback-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    width: 800px;
 }
 
-
-.feedback-form {
-
-    background: linear-gradient(45deg, #eadaaa, #c7ac54);
-    border-radius: 50%;
-    box-shadow: 10px  4px 8px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    width: 900px;
-    /* margin: 250px; */
-
-    text-align: center;
-
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
+.form-group label {
     margin-bottom: 5px;
-    font-weight: bold;
+    color: white;
 }
 
-input,
-select,
-textarea {
-    width: 60%;
-    padding: 10px;
-    box-sizing: border-box;
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-top: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #ab4b02;
+    color: #fff;
     padding: 10px 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
-button:hover{
-    background-color: #e3652a;
+button:hover {
+    background-color: green;
 }
 
-
-
-.footersection{
-    background: rgba(66, 41, 41, 0.6);
-    margin: 10px 0px;
+.footersection {
+    background: rgba(0, 0, 0);
+    margin: 0px 0px 30px 0px;
     height: 300px;
     color: white;
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
 }
 
-.footersection h2{
+.footersection h2 {
     margin: 30px;
 }
 
-.col1, .col2, .col3, .col4{
+.col1,
+.col2,
+.col3,
+.col4 {
     width: 200px;
     margin-top: 40px;
     margin-left: 30px;
 }
 
-.col1 p, .col2 p, .col3 p, .col4 p{
+.col1 p,
+.col2 p,
+.col3 p,
+.col4 p {
     margin: 0px;
 }
 
-.col3 .icons{
-    
+.col3 .icons {
+
     font-size: 30px;
     justify-content: space-around;
 
 }
 
-.col1 a, .col2 a,.col3 .icons a{
+.col1 a,
+.col2 a,
+.col3 .icons a {
     color: #fff;
 }
 
-.col1 a:hover, .col2 a:hover,.col3 .icons a:hover{
-    color:aqua;
+.col1 a:hover,
+.col2 a:hover,
+.col3 .icons a:hover {
+    color: aqua;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container2{
-    background-color: white;
-}
-
-
-
-
-
-
-
-
-
 
 footer {
-    clear: both;
-    background:linear-gradient(to bottom, rgb(28, 12, 12), rgb(105, 2, 2) );
+
+    background: linear-gradient(to bottom, rgb(28, 12, 12), rgb(105, 2, 2));
     color: #fff;
     text-align: center;
-    padding: 10px;
-    position:absolute;
+    position: fixed;
+    padding: 10px 0px;
     bottom: 0;
+    height: 40px;
     width: 100%;
-    /* display: block; */
-  }
+}
 
 .page-wrapper {
-    overflow: hidden; /* Hide any content that overflows the page-wrapper */
-  }
+    overflow: hidden;
+}
