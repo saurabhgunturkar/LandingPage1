@@ -422,6 +422,9 @@ footer {
         overflow: visible;
         height: 100px;
     }
+    .container-fluid img{
+        scale: 0.8;
+    }
 
     .home {
         width: 100%;
