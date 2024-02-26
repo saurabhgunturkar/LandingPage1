@@ -411,10 +411,10 @@ footer {
 
 
 /* Responsive */
-@media (max-width:1080px) {
+@media (max-width:1440px) {
     body {
         width: 100%;
-        height: fit-content;
+        height: auto;
     }
 
     header {
@@ -450,7 +450,12 @@ footer {
     }
     .footersection{
         height: 550px;
+        display: flex;
+        width: 100%;
 
+    }
+    .page-wrapper {
+        overflow: visible;
     }
     
 
