@@ -460,7 +460,7 @@ footer {
         width: 100%;
     }
     .page-wrapper {
-        overflow:auto;
+        overflow:visible;
     }
     
     
