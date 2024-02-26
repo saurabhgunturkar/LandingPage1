@@ -391,8 +391,7 @@ button:hover {
     color: aqua;
 }
 
-/* footer {
-
+footer {
     background: linear-gradient(to bottom, rgb(28, 12, 12), rgb(105, 2, 2));
     color: #fff;
     text-align: center;
@@ -404,8 +403,8 @@ button:hover {
 }
 
 .page-wrapper {
-    overflow: hidden;
-} */
+    overflow: visible;
+}
 
 
 
@@ -421,7 +420,7 @@ button:hover {
         flex-wrap: wrap;
         display: flex;
         overflow: visible;
-
+        height: 100px;
     }
 
     .home {
@@ -445,7 +444,7 @@ button:hover {
 
     aside {
         width: 100%;
-        height: 10vh;
+        height: 9vh;
     }
 
     section {
@@ -461,7 +460,7 @@ button:hover {
         margin-bottom: 50px;
     }
     .page-wrapper {
-        overflow: visible;
+        overflow: hidden;
     }
 
 }
