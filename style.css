@@ -457,9 +457,10 @@ footer {
     .footersection{
         height: 700px;
         width: 100%;
+        display: block;
     }
     .page-wrapper {
-        overflow: hidden;
+        overflow: visible;
     }
     
     
