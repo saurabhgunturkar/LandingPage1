@@ -436,6 +436,9 @@ footer {
     .home img {
         margin-right: 65px;
     }
+    .about{
+        overflow: visible;
+    }
     .blinking-text{
         display: block;
     }
